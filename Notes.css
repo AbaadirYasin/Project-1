@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(170, 239, 239);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(33, 0, 197);
+}
+/* ... (previous code) */
+.note-item {
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #030304;
+    color: rgb(238, 235, 233);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.notes-list {
+    margin-top: 20px;
+}
+img{
+    height: 100px;
+    width: 150px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
